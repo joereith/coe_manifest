@@ -35,6 +35,7 @@
     <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
     <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
+    <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
 
   <project name="seL4_tools.git" path="projects/tools">
@@ -49,6 +50,8 @@
   <project name="util_libs.git" path="projects/util_libs">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
+    <linkfile dest="libs/liblwip" src="liblwip"/>
+    <linkfile dest="libs/libethdrivers" src="libethdrivers"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
     <linkfile dest="libs/libutils" src="libutils"/>
   </project>
