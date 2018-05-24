@@ -53,4 +53,12 @@
     <linkfile dest="libs/libutils" src="libutils"/>
   </project>
 
+  <project name="coe_apps.git" path="projects/coe/">
+    <linkfile dest="Makefile" src="build-config/Makefile-sel4"/>
+    <linkfile dest="Kbuild" src="build-config/Kbuild-sel4"/>
+    <linkfile dest="Kconfig" src="build-config/Kconfig-sel4"/>
+    <linkfile dest="configs" src="build-config/configs-sel4"/>
+    <linkfile dest="apps/root" src="apps/root"/>
+  </project>
+
 </manifest>
