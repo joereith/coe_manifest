@@ -11,7 +11,7 @@
      @TAG(DATA61_BSD)
 -->
 <manifest>
-  <remote fetch=".." name="origin"/>
+  <remote fetch="." name="origin"/>
   
   <default remote="origin" revision="master"/>
   
