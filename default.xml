@@ -62,7 +62,9 @@
     <linkfile dest="Kconfig" src="build-config/Kconfig-sel4"/>
     <linkfile dest="configs" src="master-configs"/>
     <linkfile dest="apps/root_task" src="apps/root_task"/>
+    <linkfile dest="libs/liballocate" src="libs/liballocate"/>
     <linkfile dest="libs/libprocess" src="libs/libprocess"/>
+    <linkfile dest="libs/libsync" src="libs/libsync"/>
   </project>
 
 </manifest>
