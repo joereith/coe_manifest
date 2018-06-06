@@ -36,6 +36,7 @@
     <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
+    <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
   </project>
 
   <project name="seL4_tools.git" path="projects/tools">
