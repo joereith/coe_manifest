@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
+<manifest>
+  <remote fetch="." name="origin"/>
+  
+  <default remote="origin" revision="master"/>
+  
+  <project name="musllibc.git" path="projects/libmuslc">
+    <linkfile dest="libs/libmuslc" src="./"/>
+  </project>
+
+  <project name="seL4.git" path="kernel">
+    <linkfile dest="libs/libsel4" src="libsel4"/>
+  </project>
+
+  <project name="seL4_libs.git" path="projects/seL4_libs">
+    <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
+    <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
+    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
+    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
+    <linkfile dest="libs/libsel4simple" src="libsel4simple"/>
+    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default"/>
+    <linkfile dest="libs/libsel4simple-stable" src="libsel4simple-stable"/>
+    <linkfile dest="libs/libsel4test" src="libsel4test"/>
+    <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
+    <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
+    <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
+    <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
+  </project>
+
+  <project name="seL4_tools.git" path="projects/tools">
+    <linkfile dest="tools/common" src="common-tool"/>
+    <linkfile dest="tools/kbuild" src="kbuild-tool"/>
+    <linkfile dest="tools/elfloader" src="elfloader-tool"/>
+    <linkfile dest="tools/cmake-tool" src="cmake-tool"/>
+    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
+  </project>
+  
+  <project name="util_libs.git" path="projects/util_libs">
+    <linkfile dest="libs/libcpio" src="libcpio"/>
+    <linkfile dest="libs/libelf" src="libelf"/>
+    <linkfile dest="libs/liblwip" src="liblwip"/>
+    <linkfile dest="libs/libethdrivers" src="libethdrivers"/>
+    <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
+    <linkfile dest="libs/libutils" src="libutils"/>
+  </project> 
+
+  <project name="sel4test.git" path="projects/sel4test">
+    <linkfile dest="Makefile" src="Makefile"/>
+    <linkfile dest="Kbuild" src="Kbuild"/>
+    <linkfile dest="Kconfig" src="Kconfig"/>
+    <linkfile dest="configs" src="master-configs"/>
+    <linkfile dest="apps/sel4test-driver" src="apps/sel4test-driver"/>
+    <linkfile dest="apps/sel4test-tests" src="apps/sel4test-tests"/>
+    <linkfile dest="libs/libsel4testsupport" src="libsel4testsupport"/>
+  </project>
+
+</manifest>
