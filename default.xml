@@ -63,6 +63,7 @@
     <linkfile dest="configs" src="master-configs"/>
     <linkfile dest="apps/root_task" src="apps/root_task"/>
     <linkfile dest="libs/libprocess" src="libs/libprocess"/>
+    <linkfile dest="libs/libthread" src="libs/libthread"/>
     <linkfile dest="libs/libsync" src="libs/libsync"/>
     <linkfile dest="libs/libinit" src="libs/libinit"/>
   </project>
