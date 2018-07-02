@@ -67,6 +67,7 @@
     <linkfile dest="libs/libthread" src="libs/libthread"/>
     <linkfile dest="libs/libsync" src="libs/libsync"/>
     <linkfile dest="libs/libinit" src="libs/libinit"/>
+    <linkfile dest="libs/libmmap" src="libs/libmmap"/>
   </project>
 
 </manifest>
