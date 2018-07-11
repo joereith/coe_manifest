@@ -69,6 +69,7 @@
     <linkfile dest="libs/libsync" src="libs/libsync"/>
     <linkfile dest="libs/libinit" src="libs/libinit"/>
     <linkfile dest="libs/libmmap" src="libs/libmmap"/>
+    <linkfile dest="libs/liblockwrapper" src="libs/liblockwrapper"/>
   </project>
 
 </manifest>
