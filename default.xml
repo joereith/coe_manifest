@@ -64,9 +64,9 @@
     <linkfile dest="configs" src="master-configs"/>
     <linkfile dest="apps/root_task" src="apps/root_task"/>
     <linkfile dest="apps/child_example" src="apps/child_example"/>
+    <linkfile dest="apps/dummy" src="apps/dummy"/>
     <linkfile dest="libs/libprocess" src="libs/libprocess"/>
     <linkfile dest="libs/libthread" src="libs/libthread"/>
-    <linkfile dest="libs/libsync" src="libs/libsync"/>
     <linkfile dest="libs/libinit" src="libs/libinit"/>
     <linkfile dest="libs/libmmap" src="libs/libmmap"/>
     <linkfile dest="libs/liblockwrapper" src="libs/liblockwrapper"/>
