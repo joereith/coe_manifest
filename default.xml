@@ -68,7 +68,6 @@
     <linkfile dest="apps/test_proc" src="apps/test_proc"/>
     <linkfile dest="libs/libprocess" src="libs/libprocess"/>
     <linkfile dest="libs/libthread" src="libs/libthread"/>
-    <linkfile dest="libs/libsync" src="libs/libsync"/>
     <linkfile dest="libs/libinit" src="libs/libinit"/>
     <linkfile dest="libs/libmmap" src="libs/libmmap"/>
     <linkfile dest="libs/liblockwrapper" src="libs/liblockwrapper"/>
