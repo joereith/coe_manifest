@@ -62,11 +62,11 @@
     <linkfile dest="Kbuild" src="build-config/Kbuild-sel4"/>
     <linkfile dest="Kconfig" src="build-config/Kconfig-tutorials"/>
     <linkfile dest="configs" src="master-configs"/>
-    <linkfile dest="apps/hello-1" src="apps/hello-1"/>
-    <linkfile dest="apps/hello-2" src="apps/hello-2"/>
-    <linkfile dest="apps/hello-3" src="apps/hello-3"/>
-    <linkfile dest="apps/hello-4" src="apps/hello-4"/>
-    <linkfile dest="apps/hello-4-app" src="apps/hello-4-app"/>
+    <linkfile dest="apps/hello-1" src="tutorials/exercises/hello-1"/>
+    <linkfile dest="apps/hello-2" src="tutorials/exercises/hello-2"/>
+    <linkfile dest="apps/hello-3" src="tutorials/exercises/hello-3"/>
+    <linkfile dest="apps/hello-4" src="tutorials/exercises/hello-4"/>
+    <linkfile dest="apps/hello-4-app" src="tutorials/exercises/hello-4-app"/>
     <linkfile dest="libs/libprocess" src="libs/libprocess"/>
     <linkfile dest="libs/libthread" src="libs/libthread"/>
     <linkfile dest="libs/libinit" src="libs/libinit"/>
