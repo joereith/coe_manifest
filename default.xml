@@ -58,6 +58,7 @@
   </project>
 
   <project name="coe_apps.git" path="projects/coe/">
+    <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="Makefile" src="build-config/Makefile-sel4"/>
     <linkfile dest="Kbuild" src="build-config/Kbuild-sel4"/>
     <linkfile dest="Kconfig" src="build-config/Kconfig-sel4"/>
