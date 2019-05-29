@@ -55,6 +55,7 @@
     <linkfile dest="libs/libethdrivers" src="libethdrivers"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
     <linkfile dest="libs/libutils" src="libutils"/>
+    <linkfile dest="libs/libsatadrivers" src="libsatadrivers"/>
   </project>
 
   <project name="coe_apps.git" path="projects/coe/">
